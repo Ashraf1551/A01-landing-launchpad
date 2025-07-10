@@ -20,6 +20,9 @@
 .secondary-text-color {
   color: #4e47ff;
 }
+.primary-text-color {
+  color: #252432;
+}
 
 .btn-primary {
   font-size: 16px;
@@ -57,10 +60,38 @@ nav-logo {
 }
 .banner-title {
   margin-bottom: 37px;
+  font-size: 65px;
 }
 
 .header {
   background-image: url(../Assets/Hero-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+/* action section styles */
+main section {
+  width: 1140px;
+  margin: 116px auto;
+}
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+.action-description {
+  width: 517px;
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  margin-bottom: 23px;
+}
+.action img {
+  width: 403px;
+  border-radius: 48px;
 }
