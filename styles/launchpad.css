@@ -33,9 +33,12 @@
   border: none;
   border-radius: 10px;
 }
-
 .text-center {
   align-items: center;
+}
+button:hover {
+  cursor: pointer;
+  background-color: yellowgreen;
 }
 
 /* nav styles */
@@ -124,8 +127,7 @@ main section {
 
 footer {
   margin: 0 auto;
-  /* width: 531px; */
-  max-width: 1440px;
+  width: 531px;
   text-align: center;
   padding: 104px 454px;
 }
