@@ -121,3 +121,25 @@ main section {
   color: rgba(0, 0, 0, 0.5);
   font-size: 20px;
 }
+
+footer {
+  margin: 0 auto;
+  width: 531px;
+  text-align: center;
+  padding: 104px 454px;
+}
+.foot-logo {
+  font-size: 100px;
+  color: rgba(78, 71, 255, 1);
+}
+footer p {
+  color: #8987a1;
+}
+.foot-desc {
+  margin: 8px 0 20px;
+}
+.foot-card {
+  display: flex;
+  gap: 48px;
+  justify-content: space-evenly;
+}
