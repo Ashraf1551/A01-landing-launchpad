@@ -40,7 +40,7 @@ body {
   text-align: center;
 }
 .text-center {
-  align-items: center;
+  text-align: center;
 }
 button:hover {
   cursor: pointer;
@@ -143,6 +143,16 @@ main section {
 }
 
 /* feedback section styles */
+.feedback-title {
+  margin-bottom: 50px;
+  color: rgb(37, 36, 50);
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0%;
+  text-align: center;
+}
 .cards {
   display: flex;
   justify-content: space-between;
