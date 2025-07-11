@@ -137,6 +137,7 @@ main section {
   justify-content: space-between;
 }
 .card {
+  justify-content: center;
   width: 290px;
   height: 243px;
   padding: 24px;
@@ -146,7 +147,23 @@ main section {
 }
 .card h1 {
   margin: 24px 0;
+  /* Heading */
+  color: rgb(30, 30, 30);
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
 }
+.feedback-desc {
+  /* Body Base */
+  color: rgb(30, 30, 30);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
 .flex-part-2 {
   display: flex;
   margin: 24px 0;
@@ -154,6 +171,16 @@ main section {
 }
 .avatar {
   border-radius: 20px;
+}
+.reviewer,
+.date {
+  color: rgb(117, 117, 117);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 /* form section styles */
@@ -203,8 +230,15 @@ footer p {
 .foot-desc {
   margin: 8px 0 20px;
 }
-.foot-card {
+.foot-card ul {
   display: flex;
-  gap: 48px;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+.foot-card li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: #8987a1;
 }
